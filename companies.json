@@ -1,0 +1,1888 @@
+{
+  "layers": [
+    {
+      "name": "Custody & Wallet Management",
+      "description": "Institutional-grade safekeeping of digital assets. The foundational layer of the stack.",
+      "company_count": 10,
+      "preview_companies": [
+        "Bitgo",
+        "Fireblocks",
+        "Coinbase Custody"
+      ]
+    },
+    {
+      "name": "KYT / Compliance / AML",
+      "description": "Blockchain analytics, transaction monitoring, and regulatory compliance infrastructure.",
+      "company_count": 7,
+      "preview_companies": [
+        "Chainalysis",
+        "TRM Labs",
+        "Elliptic"
+      ]
+    },
+    {
+      "name": "Trading & Execution",
+      "description": "Prime brokerage, OTC liquidity, and institutional execution infrastructure.",
+      "company_count": 8,
+      "preview_companies": [
+        "FalconX",
+        "Hidden Road",
+        "Cumberland"
+      ]
+    },
+    {
+      "name": "Settlement",
+      "description": "The finality layer \u2014 where assets and cash irrevocably change hands. The most structurally complex layer in the stack.",
+      "company_count": 5,
+      "preview_companies": [
+        "DTCC",
+        "Canton Network",
+        "Fnality International"
+      ]
+    },
+    {
+      "name": "Reconciliation",
+      "description": "Post-trade books and records. The most underbuilt layer relative to its operational importance.",
+      "company_count": 7,
+      "preview_companies": [
+        "Lukka",
+        "Ledgible",
+        "Tres Finance"
+      ]
+    },
+    {
+      "name": "Tokenization & Transfer Agent",
+      "description": "Converting traditional assets to on-chain form. The fastest-growing layer in institutional digital assets.",
+      "company_count": 5,
+      "preview_companies": [
+        "Securitize",
+        "Ondo Finance",
+        "Franklin Templeton"
+      ]
+    },
+    {
+      "name": "Stablecoin Infrastructure",
+      "description": "Issuance, rails, and payment infrastructure. Where digital assets stops being a crypto story and becomes a payments story.",
+      "company_count": 7,
+      "preview_companies": [
+        "Circle",
+        "Tether",
+        "Paxos"
+      ]
+    },
+    {
+      "name": "Data & Reporting",
+      "description": "Price feeds, benchmarks, and institutional reporting. The credibility layer that enables institutional allocation.",
+      "company_count": 5,
+      "preview_companies": [
+        "Coin Metrics",
+        "Kaiko",
+        "CF Benchmarks"
+      ]
+    },
+    {
+      "name": "Technology & Node Infrastructure",
+      "description": "Blockchain nodes, APIs, and cross-chain connectivity. The infrastructure that everything else runs on.",
+      "company_count": 7,
+      "preview_companies": [
+        "Blockdaemon",
+        "Alchemy",
+        "Infura / Consensys"
+      ]
+    }
+  ],
+  "companies": [
+    {
+      "company": "Bitgo",
+      "primary_layer": "Custody & Wallet Management",
+      "secondary_layers": "Trading & Execution",
+      "public_private": "Private",
+      "valuation": null,
+      "founded": 2013,
+      "hq": "Palo Alto, CA",
+      "geographic_coverage": "US, EU, APAC",
+      "regulatory_status": "Qualified custodian SD trust law, NY trust charter, FinCEN registered",
+      "client_profile": "Hedge funds, exchanges, broker-dealers, family offices",
+      "key_differentiator": "Oldest institutional custodian, created qualified custody category, broadest asset coverage, multi-sig pioneer",
+      "competitive_position": "Core",
+      "risk_flags": "Failed Galaxy Digital acquisition ended in litigation 2022",
+      "strategic_move": "Launched BitGo Prime for trading and lending",
+      "funding": {
+        "ticker": null,
+        "last_valuation": "$1.75B",
+        "total_funding_raised": "$170M+",
+        "last_round": "Series C",
+        "last_round_date": "2023",
+        "key_investors": [
+          "Goldman Sachs",
+          "Galaxy Digital",
+          "Craft Ventures"
+        ]
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "Fireblocks",
+      "primary_layer": "Custody & Wallet Management",
+      "secondary_layers": "Technology & Node Infrastructure, Compliance Connectivity",
+      "public_private": "Private",
+      "valuation": null,
+      "founded": 2018,
+      "hq": "New York, NY",
+      "geographic_coverage": "US, EU, APAC",
+      "regulatory_status": "FinCEN registered, SOC 2 Type II certified",
+      "client_profile": "Banks, broker-dealers, hedge funds, exchanges, fintechs",
+      "key_differentiator": "MPC-based custody plus permissioned transfer network connecting institutional counterparties \u2014 network effect locks clients in and enables horizontal expansion across the stack",
+      "competitive_position": "Core",
+      "risk_flags": null,
+      "strategic_move": "Expanding into compliance connectivity, settlement adjacency, and tokenization infrastructure \u2014 most aggressive horizontal expander in the stack",
+      "funding": {
+        "ticker": null,
+        "last_valuation": "$8B",
+        "total_funding_raised": "$1B+",
+        "last_round": "Series E",
+        "last_round_date": "2022",
+        "key_investors": [
+          "Sequoia Capital",
+          "Ribbit Capital",
+          "BCV"
+        ]
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "Coinbase Custody",
+      "primary_layer": "Custody & Wallet Management",
+      "secondary_layers": "Trading & Execution, Stablecoin Infrastructure, Data & Reporting",
+      "public_private": "Public (subsidiary of Coinbase \u2014 NASDAQ: COIN)",
+      "valuation": null,
+      "founded": 2018,
+      "hq": "New York, NY",
+      "geographic_coverage": "US, EU, APAC",
+      "regulatory_status": "NY trust charter, qualified custodian, SEC registered investment adviser",
+      "client_profile": "Institutional asset managers, hedge funds, pension funds, sovereign wealth funds, RIAs",
+      "key_differentiator": "Only major custodian backed by a publicly traded, SEC-reporting parent \u2014 gives institutional compliance committees a level of transparency and accountability that private custodians cannot match",
+      "competitive_position": "Core",
+      "risk_flags": "Parent company regulatory exposure \u2014 SEC enforcement history and ongoing scrutiny creates reputational drag on custody product even when custody itself is sound",
+      "strategic_move": "Deep integration with USDC/Circle through Centre Consortium, Coinbase Prime bundles custody with execution and financing into one institutional offering",
+      "funding": {
+        "ticker": "COIN",
+        "last_valuation": null,
+        "total_funding_raised": null,
+        "last_round": "Public (NASDAQ)",
+        "last_round_date": "2021",
+        "key_investors": null
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "Anchorage Digital",
+      "primary_layer": "Custody & Wallet Management",
+      "secondary_layers": "Trading & Execution",
+      "public_private": "Private",
+      "valuation": null,
+      "founded": 2017,
+      "hq": "San Francisco, CA",
+      "geographic_coverage": "US, EU",
+      "regulatory_status": "OCC federal bank charter (first granted to a digital asset firm, 2021)",
+      "client_profile": "Sovereign wealth funds, large banks, highly regulated institutions",
+      "key_differentiator": "OCC federal bank charter sets them apart from every other crypto-native custodian \u2014 regulated at federal banking level rather than state trust law, the gold standard for compliance-sensitive institutional clients",
+      "competitive_position": "Prestige",
+      "risk_flags": "OCC charter comes with ongoing examination requirements \u2014 any compliance lapse would be high visibility",
+      "strategic_move": "Expanding into staking, governance, and settlement services for institutional clients",
+      "funding": {
+        "ticker": null,
+        "last_valuation": "$3B",
+        "total_funding_raised": "$487M",
+        "last_round": "Series D",
+        "last_round_date": "2021",
+        "key_investors": [
+          "KKR",
+          "Goldman Sachs",
+          "a16z"
+        ]
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "Copper",
+      "primary_layer": "Custody & Wallet Management",
+      "secondary_layers": "Trading & Execution",
+      "public_private": "Private",
+      "valuation": null,
+      "founded": 2018,
+      "hq": "London, UK",
+      "geographic_coverage": "EU, APAC, US",
+      "regulatory_status": "FCA registered, MAS licensed",
+      "client_profile": "Hedge funds, crypto-native funds, family offices with European exposure",
+      "key_differentiator": "Prime brokerage adjacent \u2014 combines custody with off-exchange settlement via ClearLoop, allowing clients to trade on exchanges without moving assets off custody",
+      "competitive_position": "Strategic Bet",
+      "risk_flags": null,
+      "strategic_move": "Expanding ClearLoop network to additional exchange partners, deepening prime brokerage offering",
+      "funding": {
+        "ticker": null,
+        "last_valuation": "$2B",
+        "total_funding_raised": "$196M",
+        "last_round": "Series C",
+        "last_round_date": "2022",
+        "key_investors": [
+          "Dawn Capital",
+          "MMC Ventures"
+        ]
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "Komainu",
+      "primary_layer": "Custody & Wallet Management",
+      "secondary_layers": null,
+      "public_private": "Private",
+      "valuation": null,
+      "founded": 2018,
+      "hq": "Jersey, Channel Islands",
+      "geographic_coverage": "EU, APAC",
+      "regulatory_status": "JFSC regulated, expanding UK and APAC licensing",
+      "client_profile": "Asian and European institutional money, banks with traditional finance pedigree requirements",
+      "key_differentiator": "Joint venture between Nomura, Ledger, and CoinShares \u2014 consortium parentage gives immediate credibility with institutional money that requires traditional financial institution backing",
+      "competitive_position": "Strategic Bet",
+      "risk_flags": null,
+      "strategic_move": "Expanding client base beyond founding consortium relationships into broader institutional market",
+      "funding": {
+        "ticker": null,
+        "last_valuation": null,
+        "total_funding_raised": null,
+        "last_round": "Joint Venture",
+        "last_round_date": "2018",
+        "key_investors": [
+          "Nomura",
+          "Ledger",
+          "CoinShares"
+        ]
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "Metaco",
+      "primary_layer": "Custody & Wallet Management",
+      "secondary_layers": "Tokenization & Transfer Agent",
+      "public_private": "Acquired (Ripple, 2023)",
+      "valuation": null,
+      "founded": 2015,
+      "hq": "Lausanne, Switzerland",
+      "geographic_coverage": "US, EU, APAC",
+      "regulatory_status": "FINMA compliant, bank-grade infrastructure",
+      "client_profile": "Banks and tier-1 financial institutions building in-house digital asset custody",
+      "key_differentiator": "Purpose-built custody technology for banks \u2014 Credit Suisse, Citi, and others built custody infrastructure on Metaco platform before Ripple acquisition",
+      "competitive_position": "Strategic Bet",
+      "risk_flags": "Ripple acquisition creates tension with bank clients given Ripple's SEC enforcement history \u2014 ongoing relationship risk",
+      "strategic_move": "Post-acquisition integration into Ripple's broader institutional stack alongside Hidden Road",
+      "funding": {
+        "ticker": null,
+        "last_valuation": "$250M (acquisition price)",
+        "total_funding_raised": null,
+        "last_round": "Acquired by Ripple",
+        "last_round_date": "2023",
+        "key_investors": [
+          "Ripple",
+          "Citi",
+          "Standard Chartered"
+        ]
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "Zodia Custody",
+      "primary_layer": "Custody & Wallet Management",
+      "secondary_layers": null,
+      "public_private": "Private",
+      "valuation": null,
+      "founded": 2020,
+      "hq": "London, UK",
+      "geographic_coverage": "EU, US",
+      "regulatory_status": "FCA registered, backed by Standard Chartered and Northern Trust",
+      "client_profile": "Banks and regulated institutions requiring traditional banking DNA in their custodian",
+      "key_differentiator": "Backed by Standard Chartered and Northern Trust \u2014 purpose-built for institutions that require their custodian to have incumbent bank parentage rather than crypto-native origins",
+      "competitive_position": "Strategic Bet",
+      "risk_flags": null,
+      "strategic_move": "Expanding geographic licensing footprint, deepening integration with Standard Chartered client network",
+      "funding": {
+        "ticker": null,
+        "last_valuation": null,
+        "total_funding_raised": null,
+        "last_round": "Strategic Investment",
+        "last_round_date": "2020",
+        "key_investors": [
+          "Standard Chartered",
+          "Northern Trust",
+          "SBI Holdings"
+        ]
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "Taurus",
+      "primary_layer": "Custody & Wallet Management",
+      "secondary_layers": "Tokenization & Transfer Agent",
+      "public_private": "Private",
+      "valuation": null,
+      "founded": 2018,
+      "hq": "Geneva, Switzerland",
+      "geographic_coverage": "EU, Middle East",
+      "regulatory_status": "FINMA regulated, Swiss banking law compliant",
+      "client_profile": "European private banks, cantonal banks, wealth managers",
+      "key_differentiator": "Swiss-regulated combined custody and tokenization platform \u2014 uniquely positioned for European private banks that need both asset safekeeping and tokenized product issuance in one compliant platform",
+      "competitive_position": "Strategic Bet",
+      "risk_flags": null,
+      "strategic_move": "Expanding into Middle East institutional market, adding tokenization capabilities for structured products",
+      "funding": {
+        "ticker": null,
+        "last_valuation": null,
+        "total_funding_raised": "$65M",
+        "last_round": "Series B",
+        "last_round_date": "2023",
+        "key_investors": [
+          "Deutsche Bank",
+          "Credit Suisse",
+          "Pictet"
+        ]
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "Hex Trust",
+      "primary_layer": "Custody & Wallet Management",
+      "secondary_layers": null,
+      "public_private": "Private",
+      "valuation": null,
+      "founded": 2018,
+      "hq": "Hong Kong",
+      "geographic_coverage": "APAC, Middle East",
+      "regulatory_status": "SFC licensed Hong Kong, VARA licensed Dubai",
+      "client_profile": "APAC institutional investors, family offices, digital asset funds",
+      "key_differentiator": "Dominant APAC-focused institutional custodian with dual licensing in Hong Kong and Dubai \u2014 the two most important emerging institutional digital asset hubs in Asia and Middle East",
+      "competitive_position": "Geographic Specialist",
+      "risk_flags": null,
+      "strategic_move": "Expanding product suite into staking and DeFi access for institutional clients",
+      "funding": {
+        "ticker": null,
+        "last_valuation": null,
+        "total_funding_raised": "$88M",
+        "last_round": "Series B",
+        "last_round_date": "2022",
+        "key_investors": [
+          "Animoca Brands",
+          "Liberty City Ventures"
+        ]
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "Chainalysis",
+      "primary_layer": "KYT / Compliance / AML",
+      "secondary_layers": null,
+      "public_private": "Private",
+      "valuation": null,
+      "founded": 2014,
+      "hq": "New York, NY",
+      "geographic_coverage": "US, EU, APAC",
+      "regulatory_status": "FinCEN registered, works directly with DOJ, FBI, IRS",
+      "client_profile": "Law enforcement agencies, exchanges, financial institutions, government agencies",
+      "key_differentiator": "Created the blockchain analytics category \u2014 Reactor investigation tool is the standard used by global law enforcement including FBI and IRS, embedding them as quasi-regulatory infrastructure rather than just a vendor",
+      "competitive_position": "Core",
+      "risk_flags": null,
+      "strategic_move": "Expanding from investigation and compliance into broader market intelligence and risk scoring products",
+      "funding": {
+        "ticker": null,
+        "last_valuation": "$8.6B",
+        "total_funding_raised": "$536M",
+        "last_round": "Series F",
+        "last_round_date": "2022",
+        "key_investors": [
+          "Coatue",
+          "Accel",
+          "GIC (Singapore)"
+        ]
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "TRM Labs",
+      "primary_layer": "KYT / Compliance / AML",
+      "secondary_layers": null,
+      "public_private": "Private",
+      "valuation": null,
+      "founded": 2018,
+      "hq": "San Francisco, CA",
+      "geographic_coverage": "US, EU, APAC",
+      "regulatory_status": "FinCEN registered, works with OFAC and FinCEN",
+      "client_profile": "Banks, broker-dealers, fintechs, crypto exchanges seeking private sector compliance",
+      "key_differentiator": "Fastest-growing challenger to Chainalysis \u2014 purpose-built for compliance teams at financial institutions rather than investigators, winning private sector financial services at the expense of Chainalysis's law enforcement positioning",
+      "competitive_position": "Core",
+      "risk_flags": null,
+      "strategic_move": "Deepening financial institution partnerships, expanding real-time transaction screening capabilities",
+      "funding": {
+        "ticker": null,
+        "last_valuation": "$1.5B+",
+        "total_funding_raised": "$130M+",
+        "last_round": "Series B",
+        "last_round_date": "2022",
+        "key_investors": [
+          "Tiger Global",
+          "PayPal Ventures",
+          "Salesforce Ventures"
+        ]
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "Elliptic",
+      "primary_layer": "KYT / Compliance / AML",
+      "secondary_layers": null,
+      "public_private": "Private",
+      "valuation": null,
+      "founded": 2013,
+      "hq": "London, UK",
+      "geographic_coverage": "EU, US, APAC",
+      "regulatory_status": "FCA registered, GDPR compliant",
+      "client_profile": "European financial institutions, exchanges, fintechs requiring EU regulatory alignment",
+      "key_differentiator": "European alternative with GDPR-compliant data handling \u2014 preferred by firms subject to EU financial reporting requirements and firms that need non-US data residency for compliance purposes",
+      "competitive_position": "Challenger",
+      "risk_flags": null,
+      "strategic_move": "Expanding holistic screening product that combines blockchain analytics with traditional AML data sources",
+      "funding": {
+        "ticker": null,
+        "last_valuation": null,
+        "total_funding_raised": "$60M+",
+        "last_round": "Series C",
+        "last_round_date": "2022",
+        "key_investors": [
+          "Evolution Equity",
+          "SoftBank",
+          "Wells Fargo"
+        ]
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "Merkle Science",
+      "primary_layer": "KYT / Compliance / AML",
+      "secondary_layers": null,
+      "public_private": "Private",
+      "valuation": null,
+      "founded": 2018,
+      "hq": "Singapore",
+      "geographic_coverage": "APAC, US, EU",
+      "regulatory_status": "MAS compliant, FinCEN registered",
+      "client_profile": "APAC exchanges, financial institutions, crypto firms expanding in Southeast Asia",
+      "key_differentiator": "Strong APAC coverage with MAS regulatory alignment \u2014 particularly relevant for Singapore-based firms where MAS regulation is driving institutional compliance demand",
+      "competitive_position": "Geographic Specialist",
+      "risk_flags": null,
+      "strategic_move": "Expanding predictive risk scoring capabilities beyond reactive transaction monitoring",
+      "funding": {
+        "ticker": null,
+        "last_valuation": null,
+        "total_funding_raised": "$27M",
+        "last_round": "Series A",
+        "last_round_date": "2022",
+        "key_investors": [
+          "Uncorrelated Ventures",
+          "Bain Capital Ventures"
+        ]
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "CipherTrace",
+      "primary_layer": "KYT / Compliance / AML",
+      "secondary_layers": null,
+      "public_private": "Acquired (Mastercard, 2021)",
+      "valuation": null,
+      "founded": 2015,
+      "hq": "Menlo Park, CA",
+      "geographic_coverage": "US, EU, APAC",
+      "regulatory_status": "FinCEN registered, embedded in Mastercard global network",
+      "client_profile": "Payment networks, banks, financial institutions integrating crypto into payment rails",
+      "key_differentiator": "Mastercard acquisition signals the end game \u2014 embedding blockchain analytics directly into global payment infrastructure rather than selling it as a standalone compliance product",
+      "competitive_position": "Strategic Bet",
+      "risk_flags": "Mastercard ownership creates potential conflict for crypto-native clients competing with Mastercard's payment network",
+      "strategic_move": "Integration into Mastercard's crypto and stablecoin payment monitoring infrastructure",
+      "funding": {
+        "ticker": null,
+        "last_valuation": null,
+        "total_funding_raised": null,
+        "last_round": "Acquired by Mastercard",
+        "last_round_date": "2021",
+        "key_investors": [
+          "Mastercard"
+        ]
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "Solidus Labs",
+      "primary_layer": "KYT / Compliance / AML",
+      "secondary_layers": "Trading & Execution",
+      "public_private": "Private",
+      "valuation": null,
+      "founded": 2018,
+      "hq": "New York, NY",
+      "geographic_coverage": "US, EU",
+      "regulatory_status": "Works with CFTC and SEC on market surveillance standards",
+      "client_profile": "Crypto exchanges, institutional trading desks, regulated venues seeking FINRA-equivalent surveillance",
+      "key_differentiator": "Market surveillance and manipulation detection rather than pure KYT \u2014 the NICE Actimize of crypto, positioned for exchanges seeking regulatory approval and institutional desks facing trading compliance requirements",
+      "competitive_position": "Niche",
+      "risk_flags": null,
+      "strategic_move": "Expanding as crypto exchanges pursue SEC and CFTC registration requiring formal market surveillance infrastructure",
+      "funding": {
+        "ticker": null,
+        "last_valuation": null,
+        "total_funding_raised": "$60M",
+        "last_round": "Series B",
+        "last_round_date": "2022",
+        "key_investors": [
+          "Liberty City Ventures",
+          "Hanaco Ventures"
+        ]
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "Notabene",
+      "primary_layer": "KYT / Compliance / AML",
+      "secondary_layers": null,
+      "public_private": "Private",
+      "valuation": null,
+      "founded": 2020,
+      "hq": "New York, NY",
+      "geographic_coverage": "US, EU, APAC",
+      "regulatory_status": "FATF Travel Rule compliant across multiple jurisdictions",
+      "client_profile": "Exchanges, VASPs, financial institutions with cross-border crypto transfer obligations",
+      "key_differentiator": "Purpose-built Travel Rule compliance \u2014 built the inter-VASP messaging layer that makes FATF Travel Rule compliance operationally workable, solving one of the most painful cross-border compliance requirements in institutional digital assets",
+      "competitive_position": "Niche",
+      "risk_flags": null,
+      "strategic_move": "Expanding network of connected VASPs to increase Travel Rule message coverage globally",
+      "funding": {
+        "ticker": null,
+        "last_valuation": null,
+        "total_funding_raised": "$20M+",
+        "last_round": "Series A",
+        "last_round_date": "2022",
+        "key_investors": [
+          "Castle Island Ventures",
+          "Jump Capital"
+        ]
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "FalconX",
+      "primary_layer": "Trading & Execution",
+      "secondary_layers": null,
+      "public_private": "Private",
+      "valuation": null,
+      "founded": 2018,
+      "hq": "San Mateo, CA",
+      "geographic_coverage": "US, EU, APAC",
+      "regulatory_status": "CFTC registered swap dealer, FinCEN registered",
+      "client_profile": "Hedge funds, asset managers, family offices, corporate treasuries",
+      "key_differentiator": "Most institutional crypto prime broker \u2014 provides credit, execution, and clearing to sophisticated institutional clients with the deepest liquidity and tightest spreads in the market",
+      "competitive_position": "Core",
+      "risk_flags": null,
+      "strategic_move": "Expanding prime brokerage product suite including securities lending and portfolio margining across digital assets",
+      "funding": {
+        "ticker": null,
+        "last_valuation": "$8B",
+        "total_funding_raised": "$670M",
+        "last_round": "Series D",
+        "last_round_date": "2022",
+        "key_investors": [
+          "Tiger Global",
+          "GIC",
+          "B Capital Group"
+        ]
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "Hidden Road",
+      "primary_layer": "Trading & Execution",
+      "secondary_layers": null,
+      "public_private": "Acquired (Ripple, 2025)",
+      "valuation": null,
+      "founded": 2018,
+      "hq": "New York, NY",
+      "geographic_coverage": "US, EU",
+      "regulatory_status": "FINRA registered broker-dealer, NFA registered",
+      "client_profile": "Institutional hedge funds, banks, asset managers from traditional finance background",
+      "key_differentiator": "Built by traditional prime brokerage veterans specifically to bridge institutional TradFi and crypto \u2014 FINRA broker-dealer registration gives it regulatory standing that pure crypto-native prime brokers lack",
+      "competitive_position": "Core",
+      "risk_flags": "Ripple acquisition in 2025 creates uncertainty about strategic direction and potential client conflicts",
+      "strategic_move": "Post-acquisition integration with Ripple's Metaco custody and XRP payment infrastructure",
+      "funding": {
+        "ticker": null,
+        "last_valuation": "$1.25B (acquisition price)",
+        "total_funding_raised": null,
+        "last_round": "Acquired by Ripple",
+        "last_round_date": "2025",
+        "key_investors": [
+          "Ripple"
+        ]
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "Cumberland",
+      "primary_layer": "Trading & Execution",
+      "secondary_layers": null,
+      "public_private": "Private (subsidiary of DRW)",
+      "valuation": null,
+      "founded": 2014,
+      "hq": "Chicago, IL",
+      "geographic_coverage": "US, EU, APAC",
+      "regulatory_status": "FinCEN registered, operates under DRW regulatory framework",
+      "client_profile": "Institutional investors, hedge funds, corporations seeking OTC liquidity with TradFi counterparty credibility",
+      "key_differentiator": "DRW parentage is the entire value proposition \u2014 one of the most respected proprietary trading firms in traditional markets backing a crypto OTC desk gives credibility that standalone crypto firms cannot match",
+      "competitive_position": "Core",
+      "risk_flags": null,
+      "strategic_move": "Expanding into structured products and institutional derivatives alongside spot OTC trading",
+      "funding": {
+        "ticker": null,
+        "last_valuation": null,
+        "total_funding_raised": null,
+        "last_round": "Subsidiary",
+        "last_round_date": null,
+        "key_investors": [
+          "DRW (parent)"
+        ]
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "Galaxy Digital",
+      "primary_layer": "Trading & Execution",
+      "secondary_layers": "Data & Reporting",
+      "public_private": "Public (TSX: GLXY)",
+      "valuation": null,
+      "founded": 2018,
+      "hq": "New York, NY",
+      "geographic_coverage": "US, EU, APAC",
+      "regulatory_status": "SEC reporting, FINRA registered, NFA registered",
+      "client_profile": "Institutional investors, asset managers, corporations, family offices",
+      "key_differentiator": "Most comprehensive institutional digital asset firm \u2014 simultaneously an asset manager, investment bank, trading desk, and mining operation, giving clients a single counterparty for multiple institutional digital asset needs",
+      "competitive_position": "Core",
+      "risk_flags": "Business complexity and multiple revenue streams create opacity \u2014 trading desk conflicts with asset management relationships",
+      "strategic_move": "Expanding lending and structured products, Bitcoin ETF products through Galaxy Asset Management",
+      "funding": {
+        "ticker": "GLXY (TSX)",
+        "last_valuation": null,
+        "total_funding_raised": null,
+        "last_round": "Public (TSX)",
+        "last_round_date": "2018",
+        "key_investors": null
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "Talos",
+      "primary_layer": "Trading & Execution",
+      "secondary_layers": "Data & Reporting",
+      "public_private": "Private",
+      "valuation": null,
+      "founded": 2018,
+      "hq": "New York, NY",
+      "geographic_coverage": "US, EU, APAC",
+      "regulatory_status": "SOC 2 certified, works with regulated institutional clients",
+      "client_profile": "Banks, broker-dealers, hedge funds, market makers building institutional trading infrastructure",
+      "key_differentiator": "Trading technology infrastructure rather than a liquidity provider \u2014 the Fidessa or Bloomberg TOMS of crypto, providing order management, analytics, and multi-venue connectivity without taking the other side of trades",
+      "competitive_position": "Niche",
+      "risk_flags": null,
+      "strategic_move": "Expanding into DeFi connectivity and portfolio management tools for institutional clients",
+      "funding": {
+        "ticker": null,
+        "last_valuation": null,
+        "total_funding_raised": "$105M",
+        "last_round": "Series B",
+        "last_round_date": "2022",
+        "key_investors": [
+          "Andreessen Horowitz",
+          "PayPal Ventures",
+          "Wells Fargo"
+        ]
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "B2C2",
+      "primary_layer": "Trading & Execution",
+      "secondary_layers": null,
+      "public_private": "Acquired (SBI Group, 2020)",
+      "valuation": null,
+      "founded": 2015,
+      "hq": "London, UK",
+      "geographic_coverage": "EU, US, APAC",
+      "regulatory_status": "FCA regulated, MAS licensed",
+      "client_profile": "Banks, asset managers, fintech platforms needing reliable crypto liquidity",
+      "key_differentiator": "SBI Group acquisition provides Japanese institutional backing and APAC distribution \u2014 crypto OTC market maker with traditional financial institution parentage, similar to Cumberland's DRW relationship",
+      "competitive_position": "Challenger",
+      "risk_flags": null,
+      "strategic_move": "Expanding APAC distribution through SBI network, adding options and structured product capabilities",
+      "funding": {
+        "ticker": null,
+        "last_valuation": null,
+        "total_funding_raised": null,
+        "last_round": "Acquired by SBI Group",
+        "last_round_date": "2020",
+        "key_investors": [
+          "SBI Group (parent)"
+        ]
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "Kraken",
+      "primary_layer": "Trading & Execution",
+      "secondary_layers": "Data & Reporting",
+      "public_private": "Private",
+      "valuation": null,
+      "founded": 2011,
+      "hq": "San Francisco, CA",
+      "geographic_coverage": "US, EU, APAC",
+      "regulatory_status": "FinCEN registered, FCA registered, MAS licensed \u2014 complex multi-jurisdictional regulatory history",
+      "client_profile": "Institutional and retail traders, increasingly institutional-focused through Kraken Institutional",
+      "key_differentiator": "One of the oldest and most liquid crypto exchanges globally \u2014 NinjaTrader acquisition signals expansion into traditional derivatives infrastructure alongside CF Benchmarks ownership creating vertical integration of exchange plus benchmark",
+      "competitive_position": "Core",
+      "risk_flags": "Ongoing US regulatory scrutiny, SEC settlement over staking program 2023, historically confrontational posture with US regulators",
+      "strategic_move": "NinjaTrader acquisition 2025, Kraken Institutional expansion, leveraging CF Benchmarks for institutional derivatives positioning",
+      "funding": {
+        "ticker": null,
+        "last_valuation": "$10.8B",
+        "total_funding_raised": "$100M+",
+        "last_round": "Series B",
+        "last_round_date": "2022",
+        "key_investors": [
+          "Tribe Capital",
+          "General Atlantic"
+        ]
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "Eventus Systems",
+      "primary_layer": "Trading & Execution",
+      "secondary_layers": "KYT / Compliance / AML",
+      "public_private": "Private",
+      "valuation": null,
+      "founded": 2014,
+      "hq": "Austin, TX",
+      "geographic_coverage": "US, EU",
+      "regulatory_status": "Works with CFTC, FCA regulated clients",
+      "client_profile": "Crypto exchanges, institutional trading desks, regulated venues",
+      "key_differentiator": "Trade surveillance technology for crypto venues and institutional desks \u2014 as crypto exchanges pursue regulatory approval, formal surveillance infrastructure becomes mandatory and Eventus is positioned to be the compliance standard",
+      "competitive_position": "Niche",
+      "risk_flags": null,
+      "strategic_move": "Expanding as regulatory requirements for crypto venue surveillance increase under new US crypto legislation",
+      "funding": {
+        "ticker": null,
+        "last_valuation": null,
+        "total_funding_raised": "$30M+",
+        "last_round": "Series B",
+        "last_round_date": "2021",
+        "key_investors": [
+          "Jump Capital",
+          "Illuminate Financial"
+        ]
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "DTCC",
+      "primary_layer": "Settlement",
+      "secondary_layers": "Reconciliation",
+      "public_private": "Quasi-public utility (member-owned)",
+      "valuation": null,
+      "founded": 1973,
+      "hq": "New York, NY",
+      "geographic_coverage": "US, EU, APAC",
+      "regulatory_status": "SEC regulated, CFTC regulated, Federal Reserve oversight \u2014 systemically important financial market utility",
+      "client_profile": "All major US broker-dealers, banks, asset managers \u2014 effectively mandatory infrastructure",
+      "key_differentiator": "Incumbent settlement utility processing trillions daily \u2014 digital assets initiatives represent the establishment's attempt to extend utility status into digital assets before crypto-native players make them irrelevant",
+      "competitive_position": "Legacy Extending",
+      "risk_flags": "Member-owned governance means innovation moves at the speed of consensus among competing institutions",
+      "strategic_move": "Project Ion for accelerated settlement, digital securities sandbox, exploring tokenized settlement finality",
+      "funding": {
+        "ticker": null,
+        "last_valuation": null,
+        "total_funding_raised": null,
+        "last_round": "Member-owned utility",
+        "last_round_date": null,
+        "key_investors": [
+          "Member-owned (major broker-dealers and banks)"
+        ]
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "Canton Network",
+      "primary_layer": "Settlement",
+      "secondary_layers": null,
+      "public_private": "Consortium (Goldman Sachs, BNY Mellon, Deloitte, Microsoft, others)",
+      "valuation": null,
+      "founded": 2023,
+      "hq": "Distributed",
+      "geographic_coverage": "US, EU",
+      "regulatory_status": "Built on Daml smart contract language, participants are individually regulated",
+      "client_profile": "Tier-1 banks, asset managers, financial infrastructure firms building shared settlement infrastructure",
+      "key_differentiator": "Privacy-enabled blockchain built by the most credible institutional consortium in digital assets \u2014 privacy-preserving architecture solves the core reason institutions won't settle on public blockchains",
+      "competitive_position": "Strategic Bet",
+      "risk_flags": "Consortium governance creates coordination risk \u2014 competing member interests slow deployment",
+      "strategic_move": "Live pilots in repo and securities settlement, expanding membership and transaction volume",
+      "funding": {
+        "ticker": null,
+        "last_valuation": null,
+        "total_funding_raised": null,
+        "last_round": "Consortium",
+        "last_round_date": "2023",
+        "key_investors": [
+          "Goldman Sachs",
+          "BNY Mellon",
+          "Microsoft"
+        ]
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "Fnality International",
+      "primary_layer": "Settlement",
+      "secondary_layers": null,
+      "public_private": "Consortium (Barclays, Santander, UBS, others)",
+      "valuation": null,
+      "founded": 2019,
+      "hq": "London, UK",
+      "geographic_coverage": "EU, US",
+      "regulatory_status": "Bank of England oversight, regulated as payment system",
+      "client_profile": "Central banks, tier-1 banks, financial institutions requiring central bank money finality",
+      "key_differentiator": "Tokenized central bank money \u2014 Fnality tokens represent claims on reserves held at central banks, giving settlement the same legal finality as Fedwire or CHAPS, which no other crypto settlement mechanism can claim",
+      "competitive_position": "Strategic Bet",
+      "risk_flags": "Regulatory approval timeline uncertainty \u2014 Bank of England oversight means deployment pace is externally controlled",
+      "strategic_move": "UK regulatory approval progressing, expanding to additional central bank currency pairs beyond GBP",
+      "funding": {
+        "ticker": null,
+        "last_valuation": null,
+        "total_funding_raised": "$95M+",
+        "last_round": "Series B",
+        "last_round_date": "2023",
+        "key_investors": [
+          "Barclays",
+          "Santander",
+          "UBS"
+        ]
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "HQLAx",
+      "primary_layer": "Settlement",
+      "secondary_layers": null,
+      "public_private": "Private",
+      "valuation": null,
+      "founded": 2016,
+      "hq": "Frankfurt, Germany",
+      "geographic_coverage": "EU",
+      "regulatory_status": "Deutsche Bundesbank oversight, works within ECB regulatory framework",
+      "client_profile": "Banks, broker-dealers managing collateral and securities financing",
+      "key_differentiator": "DLT-based collateral mobility \u2014 allows high-quality liquid assets to move between counterparties in near real-time to meet margin requirements, solving one of the most capital-intensive operational problems in institutional finance",
+      "competitive_position": "Niche",
+      "risk_flags": null,
+      "strategic_move": "Expanding asset class coverage beyond government bonds into broader HQLA eligible securities",
+      "funding": {
+        "ticker": null,
+        "last_valuation": null,
+        "total_funding_raised": null,
+        "last_round": "Strategic Investment",
+        "last_round_date": "2022",
+        "key_investors": [
+          "Goldman Sachs",
+          "Deutsche Bank",
+          "BNY Mellon"
+        ]
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "Figure / Provenance Blockchain",
+      "primary_layer": "Settlement",
+      "secondary_layers": "Tokenization & Transfer Agent",
+      "public_private": "Private",
+      "valuation": null,
+      "founded": 2018,
+      "hq": "San Francisco, CA",
+      "geographic_coverage": "US",
+      "regulatory_status": "SEC registered, OCC engagement, state lending licenses",
+      "client_profile": "Mortgage originators, asset managers, financial institutions processing loan and credit assets",
+      "key_differentiator": "Only player that built and deployed a working proprietary blockchain for real financial asset settlement at scale \u2014 billions in loan origination processed on Provenance, not a pilot or sandbox but live production infrastructure",
+      "competitive_position": "Strategic Bet",
+      "risk_flags": "Proprietary blockchain creates ecosystem dependency \u2014 clients building on Provenance are locked into Figure's infrastructure choices",
+      "strategic_move": "Expanding Provenance blockchain use cases beyond lending into broader securities settlement and tokenized asset registry",
+      "funding": {
+        "ticker": null,
+        "last_valuation": "$3.2B",
+        "total_funding_raised": "$225M+",
+        "last_round": "Series D",
+        "last_round_date": "2021",
+        "key_investors": [
+          "Morgan Stanley",
+          "10T Holdings",
+          "DST Global"
+        ]
+      },
+      "issued_assets": {
+        "assets": [
+          {
+            "symbol": "YLDS",
+            "name": "Figure USD Yield",
+            "type": "SEC-Registered Yield-Bearing Stablecoin",
+            "note": "First stablecoin registered with the SEC as a paying security \u2014 holders receive yield and have registered security protections that USDC and USDT holders do not. Figure the company is privately held \u2014 YLDS is not equity."
+          }
+        ],
+        "asset_type": "both",
+        "tokenization_note": "Also operates Provenance Blockchain as proprietary settlement infrastructure. Blockchain is secondary to the core lending business."
+      }
+    },
+    {
+      "company": "Lukka",
+      "primary_layer": "Reconciliation",
+      "secondary_layers": "Data & Reporting",
+      "public_private": "Private",
+      "valuation": null,
+      "founded": 2014,
+      "hq": "New York, NY",
+      "geographic_coverage": "US, EU",
+      "regulatory_status": "SOC 1 and SOC 2 certified, works with Big 4 auditors",
+      "client_profile": "Fund administrators, institutional asset managers, hedge funds holding digital assets",
+      "key_differentiator": "Most institutionally credible pure-play crypto recon firm \u2014 Big 4 auditor relationships and fund administrator client base give them the compliance credibility that crypto-native recon startups lack",
+      "competitive_position": "Core",
+      "risk_flags": null,
+      "strategic_move": "Expanding into broader fund administration services beyond recon, deepening Big 4 auditor partnerships",
+      "funding": {
+        "ticker": null,
+        "last_valuation": "$1.3B",
+        "total_funding_raised": "$110M",
+        "last_round": "Series D",
+        "last_round_date": "2021",
+        "key_investors": [
+          "State Street",
+          "Liberty Mutual",
+          "S&P Global"
+        ]
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "Ledgible",
+      "primary_layer": "Reconciliation",
+      "secondary_layers": "Data & Reporting",
+      "public_private": "Private",
+      "valuation": null,
+      "founded": 2016,
+      "hq": "Atlanta, GA",
+      "geographic_coverage": "US",
+      "regulatory_status": "Works with IRS-compliant reporting standards",
+      "client_profile": "Accounting firms, tax professionals, HNW individuals and institutions with crypto tax reporting obligations",
+      "key_differentiator": "Tax reporting and accounting focus rather than pure operational recon \u2014 primary clients are the accounting firms and tax professionals handling crypto for institutions, not the institutions themselves",
+      "competitive_position": "Niche",
+      "risk_flags": null,
+      "strategic_move": "Expanding enterprise product for institutional crypto tax reporting as IRS reporting requirements tighten",
+      "funding": {
+        "ticker": null,
+        "last_valuation": null,
+        "total_funding_raised": "$10M+",
+        "last_round": "Series A",
+        "last_round_date": "2022",
+        "key_investors": [
+          "Forte Ventures"
+        ]
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "Tres Finance",
+      "primary_layer": "Reconciliation",
+      "secondary_layers": null,
+      "public_private": "Private",
+      "valuation": null,
+      "founded": 2021,
+      "hq": "Tel Aviv, Israel",
+      "geographic_coverage": "US, EU",
+      "regulatory_status": "SOC 2 in progress",
+      "client_profile": "Crypto-native companies, exchanges, protocols, crypto treasury teams",
+      "key_differentiator": "Purpose-built for crypto-native treasury and finance teams rather than traditional institutions \u2014 cleaner and faster than legacy alternatives but institutional credibility with traditional finance compliance teams still developing",
+      "competitive_position": "Niche",
+      "risk_flags": null,
+      "strategic_move": "Expanding from crypto-native clients toward traditional institutions holding digital assets on their balance sheet",
+      "funding": {
+        "ticker": null,
+        "last_valuation": null,
+        "total_funding_raised": "$15M",
+        "last_round": "Series A",
+        "last_round_date": "2023",
+        "key_investors": [
+          "Crossbeam Venture Partners"
+        ]
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "Axoni",
+      "primary_layer": "Reconciliation",
+      "secondary_layers": "Settlement",
+      "public_private": "Private",
+      "valuation": null,
+      "founded": 2013,
+      "hq": "New York, NY",
+      "geographic_coverage": "US, EU",
+      "regulatory_status": "Works with SEC and CFTC regulated entities, backed by regulated financial institutions",
+      "client_profile": "Tier-1 banks, broker-dealers, financial infrastructure firms",
+      "key_differentiator": "DLT-based post-trade infrastructure backed by Goldman Sachs, JP Morgan, and others \u2014 builds the rails that reconciliation runs on rather than selling a recon product directly, making them infrastructure for the infrastructure",
+      "competitive_position": "Strategic Bet",
+      "risk_flags": null,
+      "strategic_move": "Expanding post-trade infrastructure use cases including derivatives processing and collateral management",
+      "funding": {
+        "ticker": null,
+        "last_valuation": null,
+        "total_funding_raised": "$59M",
+        "last_round": "Series B",
+        "last_round_date": "2019",
+        "key_investors": [
+          "Goldman Sachs",
+          "JP Morgan",
+          "Wells Fargo"
+        ]
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "SS&C Technologies",
+      "primary_layer": "Reconciliation",
+      "secondary_layers": null,
+      "public_private": "Public (NASDAQ: SSNC)",
+      "valuation": null,
+      "founded": 1986,
+      "hq": "Windsor, CT",
+      "geographic_coverage": "US, EU, APAC",
+      "regulatory_status": "SEC registered investment adviser, multiple state and international licenses",
+      "client_profile": "Hedge funds, asset managers, fund administrators using Advent Geneva for portfolio management and recon",
+      "key_differentiator": "Dominant legacy fund administration and recon platform \u2014 digital asset support bolted on rather than native, creating operational gaps that crypto-native vendors exploit but distribution through existing client relationships is unmatched",
+      "competitive_position": "Legacy Extending",
+      "risk_flags": "Legacy architecture not designed for 24/7 crypto markets \u2014 operational gaps in digital asset recon create client vulnerability to crypto-native competitors",
+      "strategic_move": "Adding digital asset modules to Advent Geneva, acquiring or partnering with crypto-native recon vendors",
+      "funding": {
+        "ticker": "SSNC",
+        "last_valuation": null,
+        "total_funding_raised": null,
+        "last_round": "Public (NASDAQ)",
+        "last_round_date": "1996",
+        "key_investors": null
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "Broadridge",
+      "primary_layer": "Reconciliation",
+      "secondary_layers": "Tokenization & Transfer Agent, Settlement",
+      "public_private": "Public (NYSE: BR)",
+      "valuation": null,
+      "founded": 1962,
+      "hq": "Lake Success, NY",
+      "geographic_coverage": "US, EU, APAC",
+      "regulatory_status": "SEC registered, FINRA regulated, multiple international licenses",
+      "client_profile": "Broker-dealers, asset managers, banks \u2014 existing client relationships cover most of Wall Street",
+      "key_differentiator": "Legacy incumbent with the broadest existing client relationships in financial services \u2014 DLT Repo platform processes billions in repo transactions daily making it one of the highest-volume deployed blockchain use cases in traditional finance",
+      "competitive_position": "Legacy Extending",
+      "risk_flags": "Digital assets capabilities immature relative to the complexity of the problem \u2014 existing client relationships create adoption pathway but technology lags crypto-native competitors",
+      "strategic_move": "DLT Repo expansion, proxy voting on DLT, digital securities post-trade processing",
+      "funding": {
+        "ticker": "BR",
+        "last_valuation": null,
+        "total_funding_raised": null,
+        "last_round": "Public (NYSE)",
+        "last_round_date": "2007",
+        "key_investors": null
+      },
+      "issued_assets": {
+        "assets": [],
+        "asset_type": "tokenization_secondary",
+        "tokenization_note": "Operates DLT Repo platform processing billions in repo transactions daily \u2014 one of the highest-volume deployed blockchain use cases in traditional finance. No token issued."
+      }
+    },
+    {
+      "company": "Decimal",
+      "primary_layer": "Reconciliation",
+      "secondary_layers": null,
+      "public_private": "Private",
+      "valuation": null,
+      "founded": 2019,
+      "hq": "New York, NY",
+      "geographic_coverage": "US",
+      "regulatory_status": "Works with SEC registered fund administrators",
+      "client_profile": "Fund administrators specifically rather than the funds themselves",
+      "key_differentiator": "Focused specifically on fund administrators rather than funds directly \u2014 smart wedge into the workflow where reconciliation work actually happens daily, underserved by both legacy systems and crypto-native startups",
+      "competitive_position": "Niche",
+      "risk_flags": null,
+      "strategic_move": "Deepening fund administrator client base, expanding asset class coverage",
+      "funding": {
+        "ticker": null,
+        "last_valuation": null,
+        "total_funding_raised": null,
+        "last_round": "Seed",
+        "last_round_date": "2021",
+        "key_investors": null
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "Securitize",
+      "primary_layer": "Tokenization & Transfer Agent",
+      "secondary_layers": null,
+      "public_private": "Private",
+      "valuation": null,
+      "founded": 2017,
+      "hq": "Miami, FL",
+      "geographic_coverage": "US, EU",
+      "regulatory_status": "SEC registered transfer agent, SEC registered broker-dealer, FINRA member",
+      "client_profile": "Asset managers, PE firms, alternative investment managers seeking to tokenize fund interests",
+      "key_differentiator": "Dominant US tokenized securities platform \u2014 SEC-registered transfer agent status and BlackRock BUIDL relationship established them as the de facto standard for institutional tokenized fund issuance in the United States",
+      "competitive_position": "Core",
+      "risk_flags": null,
+      "strategic_move": "Expanding tokenization platform to additional asset managers following BlackRock relationship, building secondary market liquidity infrastructure for tokenized securities",
+      "funding": {
+        "ticker": null,
+        "last_valuation": "$1B+",
+        "total_funding_raised": "$160M+",
+        "last_round": "Strategic Investment",
+        "last_round_date": "2024",
+        "key_investors": [
+          "BlackRock",
+          "Hamilton Lane",
+          "Tradeweb"
+        ]
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "Ondo Finance",
+      "primary_layer": "Tokenization & Transfer Agent",
+      "secondary_layers": "Stablecoin Infrastructure",
+      "public_private": "Private",
+      "valuation": null,
+      "founded": 2021,
+      "hq": "New York, NY",
+      "geographic_coverage": "US, EU, APAC",
+      "regulatory_status": "Works with SEC-registered entities for underlying asset management",
+      "client_profile": "Institutions and protocols seeking yield-bearing tokenized Treasury alternatives to zero-yield stablecoins",
+      "key_differentiator": "Creating a new product category \u2014 tokenized US Treasuries and money market funds that function as yield-bearing stablecoins, blurring the line between tokenization and stablecoin infrastructure in ways that could disrupt both categories",
+      "competitive_position": "Core",
+      "risk_flags": null,
+      "strategic_move": "Expanding OUSG and USDY to additional blockchain networks, deepening institutional distribution partnerships",
+      "funding": {
+        "ticker": null,
+        "last_valuation": null,
+        "total_funding_raised": "$46M",
+        "last_round": "Series A",
+        "last_round_date": "2022",
+        "key_investors": [
+          "Pantera Capital",
+          "Coinbase Ventures",
+          "Tiger Global"
+        ]
+      },
+      "issued_assets": {
+        "assets": [
+          {
+            "symbol": "OUSG",
+            "name": "Ondo Short-Term US Government Bond Fund",
+            "type": "Tokenized Treasury",
+            "note": "Tokenized exposure to US Treasuries. A financial product \u2014 not equity in Ondo Finance."
+          },
+          {
+            "symbol": "USDY",
+            "name": "Ondo US Dollar Yield",
+            "type": "Yield-bearing Stablecoin",
+            "note": "Yield-bearing dollar instrument backed by Treasuries. Competes with zero-yield stablecoins as institutional working capital."
+          }
+        ],
+        "asset_type": "token_as_product"
+      }
+    },
+    {
+      "company": "Franklin Templeton",
+      "primary_layer": "Tokenization & Transfer Agent",
+      "secondary_layers": null,
+      "public_private": "Public (NYSE: BEN)",
+      "valuation": null,
+      "founded": 1947,
+      "hq": "San Mateo, CA",
+      "geographic_coverage": "US, EU, APAC",
+      "regulatory_status": "SEC registered investment adviser, multiple global licenses",
+      "client_profile": "Institutional and retail investors in Franklin Templeton fund products",
+      "key_differentiator": "Most significant signal in the tokenization layer \u2014 a $1.5 trillion traditional asset manager chose to build and operate blockchain infrastructure directly rather than use a vendor, signaling where the largest asset managers think this is going",
+      "competitive_position": "Strategic Bet",
+      "risk_flags": "Traditional asset manager operating blockchain infrastructure creates regulatory complexity and operational risk outside their core competency",
+      "strategic_move": "Expanding BENJI token to additional blockchain networks, exploring broader tokenized fund product suite",
+      "funding": {
+        "ticker": "BEN",
+        "last_valuation": null,
+        "total_funding_raised": null,
+        "last_round": "Public (NYSE)",
+        "last_round_date": "1971",
+        "key_investors": null
+      },
+      "issued_assets": {
+        "assets": [
+          {
+            "symbol": "BENJI",
+            "name": "Franklin OnChain US Government Money Fund",
+            "type": "Tokenized Money Market Fund",
+            "note": "Tokenized money market fund running natively on Stellar and Polygon. A fund product \u2014 not a representation of Franklin Templeton equity. BEN (NYSE) is the equity instrument."
+          }
+        ],
+        "asset_type": "tokenization_secondary",
+        "tokenization_note": "Franklin Templeton built and operates blockchain infrastructure directly rather than using a vendor \u2014 significant strategic signal from a $1.5T asset manager."
+      }
+    },
+    {
+      "company": "Tokeny",
+      "primary_layer": "Tokenization & Transfer Agent",
+      "secondary_layers": null,
+      "public_private": "Acquired (Euronext, 2023)",
+      "valuation": null,
+      "founded": 2018,
+      "hq": "Luxembourg",
+      "geographic_coverage": "EU",
+      "regulatory_status": "MiFID II compliant, EU DLT Pilot Regime participant",
+      "client_profile": "European asset managers, private banks, issuers of tokenized securities under EU regulatory framework",
+      "key_differentiator": "European tokenization platform acquired by Euronext \u2014 stock exchange ownership provides unmatched institutional distribution and regulatory credibility for tokenized securities issuance under EU frameworks",
+      "competitive_position": "Strategic Bet",
+      "risk_flags": null,
+      "strategic_move": "Integration with Euronext trading and post-trade infrastructure, expanding EU tokenized securities issuance volumes",
+      "funding": {
+        "ticker": null,
+        "last_valuation": null,
+        "total_funding_raised": null,
+        "last_round": "Acquired by Euronext",
+        "last_round_date": "2023",
+        "key_investors": [
+          "Euronext (parent)"
+        ]
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "Polymath",
+      "primary_layer": "Tokenization & Transfer Agent",
+      "secondary_layers": null,
+      "public_private": "Private",
+      "valuation": null,
+      "founded": 2017,
+      "hq": "Grand Cayman",
+      "geographic_coverage": "US, EU",
+      "regulatory_status": "Created ERC-1400 security token standard",
+      "client_profile": "Early security token issuers \u2014 limited current institutional relevance",
+      "key_differentiator": "Early pioneer that created the ERC-1400 security token standard \u2014 technology contributions were real but commercial momentum stalled as better-resourced and more regulated competitors entered the market",
+      "competitive_position": "Distressed",
+      "risk_flags": "Lost market position to Securitize and other better-resourced competitors \u2014 limited current commercial relevance",
+      "strategic_move": "Pivoting toward Polymesh, a purpose-built blockchain for regulated securities",
+      "funding": {
+        "ticker": null,
+        "last_valuation": null,
+        "total_funding_raised": "$58M",
+        "last_round": "Token Sale / Early Funding",
+        "last_round_date": "2018",
+        "key_investors": null
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "Circle",
+      "primary_layer": "Stablecoin Infrastructure",
+      "secondary_layers": "Tokenization & Transfer Agent",
+      "public_private": "Private (IPO filed)",
+      "valuation": null,
+      "founded": 2013,
+      "hq": "Boston, MA",
+      "geographic_coverage": "US, EU, APAC",
+      "regulatory_status": "NY BitLicense, FinCEN registered, state money transmitter licenses, EU MiCA compliant",
+      "client_profile": "Institutional investors, exchanges, fintechs, payment companies, DeFi protocols",
+      "key_differentiator": "Most important regulated stablecoin issuer \u2014 USDC with full reserves, monthly Deloitte attestations, and Cross-Chain Transfer Protocol across dozens of blockchains positions Circle as the stablecoin of institutional and regulated finance",
+      "competitive_position": "Core",
+      "risk_flags": "Exposure to banking system \u2014 Silicon Valley Bank collapse temporarily affected USDC peg in 2023, revealing reserve management risk",
+      "strategic_move": "IPO filing positions Circle for public market capital raise, CCTP expansion enabling seamless USDC movement across blockchains, institutional API product expansion",
+      "funding": {
+        "ticker": null,
+        "last_valuation": "$9B",
+        "total_funding_raised": "$1.1B+",
+        "last_round": "IPO Filed",
+        "last_round_date": "2024",
+        "key_investors": [
+          "Fidelity",
+          "Marshall Wace",
+          "BlackRock"
+        ]
+      },
+      "issued_assets": {
+        "assets": [
+          {
+            "symbol": "USDC",
+            "name": "USD Coin",
+            "type": "Stablecoin",
+            "note": "Fully reserved, monthly Deloitte attestations. Holding USDC confers no ownership in Circle."
+          }
+        ],
+        "asset_type": "token_as_product"
+      }
+    },
+    {
+      "company": "Tether",
+      "primary_layer": "Stablecoin Infrastructure",
+      "secondary_layers": null,
+      "public_private": "Private",
+      "valuation": null,
+      "founded": 2014,
+      "hq": "Road Town, British Virgin Islands",
+      "geographic_coverage": "Global",
+      "regulatory_status": "Limited US regulatory standing \u2014 offshore domicile, historically opaque reserve reporting",
+      "client_profile": "Crypto-native traders, emerging market users, global informal dollar demand",
+      "key_differentiator": "Dominant by volume despite regulatory opacity \u2014 USDT's staying power reflects genuine utility in markets where dollar access is restricted and crypto-native trading where liquidity depth matters more than regulatory compliance",
+      "competitive_position": "Core",
+      "risk_flags": "Historically opaque reserve composition, offshore domicile creates US regulatory exposure risk, no full independent audit completed",
+      "strategic_move": "Expanding into non-dollar stablecoins, commodity-backed tokens, and communications infrastructure through Tether investments",
+      "funding": {
+        "ticker": null,
+        "last_valuation": null,
+        "total_funding_raised": null,
+        "last_round": "Private \u2014 no disclosed funding",
+        "last_round_date": null,
+        "key_investors": null
+      },
+      "issued_assets": {
+        "assets": [
+          {
+            "symbol": "USDT",
+            "name": "Tether",
+            "type": "Stablecoin",
+            "note": "Dominant by volume globally. Offshore issuer \u2014 holding USDT confers no ownership in Tether and no US regulatory protections."
+          }
+        ],
+        "asset_type": "token_as_product"
+      }
+    },
+    {
+      "company": "Paxos",
+      "primary_layer": "Stablecoin Infrastructure",
+      "secondary_layers": null,
+      "public_private": "Private",
+      "valuation": null,
+      "founded": 2012,
+      "hq": "New York, NY",
+      "geographic_coverage": "US, EU",
+      "regulatory_status": "NY trust company charter, OCC engagement, FinCEN registered",
+      "client_profile": "Financial institutions seeking to issue their own regulated stablecoins, enterprise clients",
+      "key_differentiator": "Most regulatory-forward stablecoin infrastructure provider \u2014 NY trust company charter and white-label stablecoin issuance infrastructure allows financial institutions to issue their own branded stablecoins on Paxos rails",
+      "competitive_position": "Challenger",
+      "risk_flags": "NYDFS ordered halt to BUSD issuance for Binance in 2023 \u2014 demonstrated regulatory risk of issuing stablecoins primarily associated with a single exchange counterparty",
+      "strategic_move": "Refocusing on USDP and enterprise white-label stablecoin issuance for financial institutions post-BUSD shutdown",
+      "funding": {
+        "ticker": null,
+        "last_valuation": "$2.4B",
+        "total_funding_raised": "$540M",
+        "last_round": "Series D",
+        "last_round_date": "2022",
+        "key_investors": [
+          "Oak HC/FT",
+          "Declaration Partners",
+          "PayPal Ventures"
+        ]
+      },
+      "issued_assets": {
+        "assets": [
+          {
+            "symbol": "USDP",
+            "name": "Pax Dollar",
+            "type": "Stablecoin",
+            "note": "Issued under NY trust company charter. Previously issued BUSD for Binance until NYDFS halt in 2023."
+          }
+        ],
+        "asset_type": "token_as_product"
+      }
+    },
+    {
+      "company": "PayPal / PYUSD",
+      "primary_layer": "Stablecoin Infrastructure",
+      "secondary_layers": null,
+      "public_private": "Public (NASDAQ: PYPL)",
+      "valuation": null,
+      "founded": 2023,
+      "hq": "San Jose, CA",
+      "geographic_coverage": "US",
+      "regulatory_status": "Issued by Paxos under NY trust company charter, PayPal state money transmitter licenses",
+      "client_profile": "PayPal merchant network, PayPal users, platforms integrating PayPal payment rails",
+      "key_differentiator": "Most significant signal that mainstream payment companies treat stablecoin issuance as a core payments capability \u2014 when PayPal issues a stablecoin every other payment company's board asks why they haven't",
+      "competitive_position": "Strategic Bet",
+      "risk_flags": "Limited adoption beyond PayPal ecosystem \u2014 PYUSD volume small relative to USDC and USDT, dependent on PayPal merchant and user adoption",
+      "strategic_move": "Expanding PYUSD to Solana blockchain, incentivizing merchant adoption through PayPal checkout integration",
+      "funding": {
+        "ticker": "PYPL",
+        "last_valuation": null,
+        "total_funding_raised": null,
+        "last_round": "Public (NASDAQ)",
+        "last_round_date": "2015",
+        "key_investors": null
+      },
+      "issued_assets": {
+        "assets": [
+          {
+            "symbol": "PYUSD",
+            "name": "PayPal USD",
+            "type": "Stablecoin",
+            "note": "Issued by Paxos under PayPal brand. Holding PYUSD confers no ownership in PayPal \u2014 separate from PYPL equity."
+          }
+        ],
+        "asset_type": "token_as_product"
+      }
+    },
+    {
+      "company": "Bridge / Stripe",
+      "primary_layer": "Stablecoin Infrastructure",
+      "secondary_layers": null,
+      "public_private": "Acquired (Stripe, 2024)",
+      "valuation": null,
+      "founded": 2022,
+      "hq": "San Francisco, CA",
+      "geographic_coverage": "US, EU, APAC",
+      "regulatory_status": "FinCEN registered, state money transmitter licenses via Stripe",
+      "client_profile": "Businesses accepting, holding, and sending stablecoins across multiple blockchains",
+      "key_differentiator": "Most strategically important acquisition in digital assets infrastructure \u2014 Stripe paying $1.1B for Bridge signals that the next generation of global payments runs on stablecoin rails, making this a payments infrastructure story not a crypto story",
+      "competitive_position": "Core",
+      "risk_flags": null,
+      "strategic_move": "Integration into Stripe payment infrastructure, enabling stablecoin acceptance for Stripe's millions of merchant clients globally",
+      "funding": {
+        "ticker": null,
+        "last_valuation": "$1.1B (acquisition price)",
+        "total_funding_raised": null,
+        "last_round": "Acquired by Stripe",
+        "last_round_date": "2024",
+        "key_investors": [
+          "Stripe (parent)"
+        ]
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "BVNK",
+      "primary_layer": "Stablecoin Infrastructure",
+      "secondary_layers": null,
+      "public_private": "Private",
+      "valuation": null,
+      "founded": 2021,
+      "hq": "London, UK",
+      "geographic_coverage": "EU, LATAM, Africa, Southeast Asia",
+      "regulatory_status": "FCA registered, multiple emerging market licenses",
+      "client_profile": "Businesses making cross-border payments in corridors where traditional banking is slow and expensive",
+      "key_differentiator": "Stablecoin payment infrastructure for cross-border business payments \u2014 growing fastest in corridors where correspondent banking is most broken, particularly LATAM, Africa, and Southeast Asia",
+      "competitive_position": "Niche",
+      "risk_flags": null,
+      "strategic_move": "Expanding geographic licensing footprint, deepening LATAM and Africa payment corridor coverage",
+      "funding": {
+        "ticker": null,
+        "last_valuation": null,
+        "total_funding_raised": "$50M+",
+        "last_round": "Series A",
+        "last_round_date": "2022",
+        "key_investors": [
+          "Tiger Global",
+          "Coinbase Ventures"
+        ]
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "Arf",
+      "primary_layer": "Stablecoin Infrastructure",
+      "secondary_layers": null,
+      "public_private": "Private",
+      "valuation": null,
+      "founded": 2021,
+      "hq": "Zug, Switzerland",
+      "geographic_coverage": "US, EU, APAC",
+      "regulatory_status": "Swiss FINMA registered, FinCEN registered",
+      "client_profile": "Payment service providers, money transfer operators with cross-border pre-funding requirements",
+      "key_differentiator": "Solves the pre-funding problem in cross-border payments using USDC as working capital \u2014 eliminates the need for payment companies to tie up capital in nostro accounts by providing real-time stablecoin liquidity for cross-border settlement",
+      "competitive_position": "Niche",
+      "risk_flags": null,
+      "strategic_move": "Expanding licensed corridors and PSP network, deepening USDC liquidity facilities",
+      "funding": {
+        "ticker": null,
+        "last_valuation": null,
+        "total_funding_raised": "$13M",
+        "last_round": "Seed",
+        "last_round_date": "2022",
+        "key_investors": [
+          "Circle Ventures",
+          "Endeavor Catalyst"
+        ]
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "Coin Metrics",
+      "primary_layer": "Data & Reporting",
+      "secondary_layers": null,
+      "public_private": "Private",
+      "valuation": null,
+      "founded": 2017,
+      "hq": "Boston, MA",
+      "geographic_coverage": "US, EU, APAC",
+      "regulatory_status": "SOC 2 certified, data methodology independently reviewed",
+      "client_profile": "Institutional asset managers, index providers, exchanges, risk managers, auditors",
+      "key_differentiator": "Most institutionally credible pure-play crypto data provider \u2014 transparent reproducible methodology for filtering fake volume and wash trading is as important as the data itself for institutions defending data sources to auditors",
+      "competitive_position": "Core",
+      "risk_flags": null,
+      "strategic_move": "Expanding CMBI index products, deepening institutional data distribution partnerships",
+      "funding": {
+        "ticker": null,
+        "last_valuation": null,
+        "total_funding_raised": "$35M",
+        "last_round": "Series B",
+        "last_round_date": "2021",
+        "key_investors": [
+          "Goldman Sachs",
+          "Fidelity",
+          "Castle Island Ventures"
+        ]
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "Kaiko",
+      "primary_layer": "Data & Reporting",
+      "secondary_layers": null,
+      "public_private": "Private",
+      "valuation": null,
+      "founded": 2014,
+      "hq": "Paris, France",
+      "geographic_coverage": "EU, US, APAC",
+      "regulatory_status": "GDPR compliant, AMF engaged",
+      "client_profile": "Quant funds, market makers, European institutional investors requiring granular order book data",
+      "key_differentiator": "European alternative with superior market microstructure data \u2014 order book depth and historical tick data coverage makes Kaiko the preferred choice for quantitative strategies requiring granular exchange data rather than just price feeds",
+      "competitive_position": "Challenger",
+      "risk_flags": null,
+      "strategic_move": "Expanding derivatives and DeFi data coverage, deepening European institutional distribution",
+      "funding": {
+        "ticker": null,
+        "last_valuation": null,
+        "total_funding_raised": "$53M",
+        "last_round": "Series B",
+        "last_round_date": "2022",
+        "key_investors": [
+          "Anthemis",
+          "Point Nine Capital"
+        ]
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "CF Benchmarks",
+      "primary_layer": "Data & Reporting",
+      "secondary_layers": null,
+      "public_private": "Acquired (Kraken, 2019)",
+      "valuation": null,
+      "founded": 2015,
+      "hq": "London, UK",
+      "geographic_coverage": "US, EU",
+      "regulatory_status": "FCA regulated benchmark administrator, CME Group designated contract market benchmark",
+      "client_profile": "CME futures participants, institutional derivatives traders, ETF issuers requiring regulated crypto benchmarks",
+      "key_differentiator": "Most systemically important data company in the stack \u2014 provides official settlement prices for CME Bitcoin and Ethereum futures, making them critical infrastructure for the entire institutional derivatives market",
+      "competitive_position": "Core",
+      "risk_flags": "Kraken ownership creates conflict of interest \u2014 exchange now owns the benchmark that its own products reference, worth monitoring for regulatory scrutiny",
+      "strategic_move": "Expanding benchmark suite to additional crypto assets, providing reference rates for new institutional derivative products",
+      "funding": {
+        "ticker": null,
+        "last_valuation": null,
+        "total_funding_raised": null,
+        "last_round": "Acquired by Kraken",
+        "last_round_date": "2019",
+        "key_investors": [
+          "Kraken (parent)"
+        ]
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "Amberdata",
+      "primary_layer": "Data & Reporting",
+      "secondary_layers": null,
+      "public_private": "Private",
+      "valuation": null,
+      "founded": 2017,
+      "hq": "San Francisco, CA",
+      "geographic_coverage": "US, EU, APAC",
+      "regulatory_status": "SOC 2 certified",
+      "client_profile": "Institutional traders, risk managers, DeFi participants, derivatives desks",
+      "key_differentiator": "Strongest DeFi and derivatives analytics coverage \u2014 fills the gap between traditional crypto market data and the institutional need to monitor and analyze decentralized protocol activity and on-chain derivatives",
+      "competitive_position": "Niche",
+      "risk_flags": null,
+      "strategic_move": "Expanding institutional DeFi analytics as institutional interest in on-chain protocols grows",
+      "funding": {
+        "ticker": null,
+        "last_valuation": null,
+        "total_funding_raised": "$30M+",
+        "last_round": "Series B",
+        "last_round_date": "2022",
+        "key_investors": [
+          "Illuminate Financial",
+          "Two Sigma Ventures"
+        ]
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "Messari",
+      "primary_layer": "Data & Reporting",
+      "secondary_layers": null,
+      "public_private": "Private",
+      "valuation": null,
+      "founded": 2018,
+      "hq": "New York, NY",
+      "geographic_coverage": "US, EU, APAC",
+      "regulatory_status": "Works toward standardized crypto disclosure frameworks",
+      "client_profile": "Institutional investors researching protocols, family offices, VC funds evaluating digital asset investments",
+      "key_differentiator": "Research and intelligence rather than raw data feeds \u2014 built around standardized disclosure for crypto assets without SEC reporting requirements, providing the qualitative due diligence layer that price feeds alone cannot supply",
+      "competitive_position": "Niche",
+      "risk_flags": null,
+      "strategic_move": "Expanding institutional research products, building toward enterprise intelligence platform for digital asset allocation",
+      "funding": {
+        "ticker": null,
+        "last_valuation": null,
+        "total_funding_raised": "$35M",
+        "last_round": "Series A",
+        "last_round_date": "2021",
+        "key_investors": [
+          "Multicoin Capital",
+          "Coinbase Ventures",
+          "Kraken Ventures"
+        ]
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "Blockdaemon",
+      "primary_layer": "Technology & Node Infrastructure",
+      "secondary_layers": null,
+      "public_private": "Private",
+      "valuation": null,
+      "founded": 2017,
+      "hq": "New York, NY",
+      "geographic_coverage": "US, EU, APAC",
+      "regulatory_status": "SOC 2 Type II certified, works with regulated financial institutions",
+      "client_profile": "Banks, custodians, exchanges, institutional validators requiring enterprise-grade node infrastructure",
+      "key_differentiator": "Most institutionally focused node infrastructure provider \u2014 enterprise reliability, compliance posture, and support for 70+ blockchain protocols positions them as the AWS of blockchain infrastructure for regulated financial institutions",
+      "competitive_position": "Core",
+      "risk_flags": null,
+      "strategic_move": "Expanding staking infrastructure and validator services for institutional clients, adding institutional MPC wallet infrastructure",
+      "funding": {
+        "ticker": null,
+        "last_valuation": "$1.26B",
+        "total_funding_raised": "$270M",
+        "last_round": "Series C",
+        "last_round_date": "2022",
+        "key_investors": [
+          "Goldman Sachs",
+          "Alphabet (Google)",
+          "Morgan Stanley"
+        ]
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "Alchemy",
+      "primary_layer": "Technology & Node Infrastructure",
+      "secondary_layers": null,
+      "public_private": "Private",
+      "valuation": null,
+      "founded": 2019,
+      "hq": "San Francisco, CA",
+      "geographic_coverage": "US, EU, APAC",
+      "regulatory_status": "SOC 2 certified",
+      "client_profile": "Fintechs, crypto-native companies, developers building blockchain applications",
+      "key_differentiator": "Dominant developer platform for blockchain application development \u2014 powers an enormous percentage of Ethereum applications through superior developer tooling, APIs, and reliability, though client profile skews to developers rather than regulated institutions",
+      "competitive_position": "Core",
+      "risk_flags": null,
+      "strategic_move": "Expanding multi-chain coverage and enterprise features, building toward institutional client segment",
+      "funding": {
+        "ticker": null,
+        "last_valuation": "$10.2B",
+        "total_funding_raised": "$565M",
+        "last_round": "Series C",
+        "last_round_date": "2022",
+        "key_investors": [
+          "a16z",
+          "Coatue",
+          "Addition"
+        ]
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "Infura / Consensys",
+      "primary_layer": "Technology & Node Infrastructure",
+      "secondary_layers": null,
+      "public_private": "Private",
+      "valuation": null,
+      "founded": 2016,
+      "hq": "New York, NY",
+      "geographic_coverage": "US, EU, APAC",
+      "regulatory_status": "Working with EU MiCA compliance requirements",
+      "client_profile": "Ethereum application developers, fintechs, companies building on Ethereum ecosystem",
+      "key_differentiator": "Ethereum ecosystem infrastructure \u2014 MetaMask, Infura, and Linea Layer 2 under one roof makes Consensys the most embedded company in Ethereum but financial difficulties and restructuring create ecosystem dependency risk",
+      "competitive_position": "Strategic Bet",
+      "risk_flags": "Consensys financial difficulties and restructuring in 2024 create risk for clients dependent on Infura \u2014 when core Ethereum infrastructure has balance sheet problems the ecosystem notices",
+      "strategic_move": "Restructuring and refocusing on core infrastructure products, MetaMask institutional expansion",
+      "funding": {
+        "ticker": null,
+        "last_valuation": "$7B",
+        "total_funding_raised": "$725M",
+        "last_round": "Series D",
+        "last_round_date": "2022",
+        "key_investors": [
+          "ParaFi Capital",
+          "Third Point Ventures",
+          "Marshall Wace"
+        ]
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "QuickNode",
+      "primary_layer": "Technology & Node Infrastructure",
+      "secondary_layers": null,
+      "public_private": "Private",
+      "valuation": null,
+      "founded": 2017,
+      "hq": "Miami, FL",
+      "geographic_coverage": "US, EU, APAC",
+      "regulatory_status": "SOC 2 certified",
+      "client_profile": "Developers, fintechs, mid-market companies needing multi-chain node access",
+      "key_differentiator": "Fastest-growing multi-chain node provider \u2014 broader protocol coverage than Alchemy or Infura with competitive performance, winning clients in the developer and mid-market segment on multi-chain flexibility",
+      "competitive_position": "Challenger",
+      "risk_flags": null,
+      "strategic_move": "Expanding enterprise features and institutional client capabilities, broadening blockchain protocol support",
+      "funding": {
+        "ticker": null,
+        "last_valuation": "$800M",
+        "total_funding_raised": "$60M",
+        "last_round": "Series B",
+        "last_round_date": "2022",
+        "key_investors": [
+          "Tiger Global",
+          "Seven Seven Six"
+        ]
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "Chainlink",
+      "primary_layer": "Technology & Node Infrastructure",
+      "secondary_layers": null,
+      "public_private": "Public (LINK token \u2014 not equity)",
+      "valuation": null,
+      "founded": 2017,
+      "hq": "Grand Cayman",
+      "geographic_coverage": "US, EU, APAC",
+      "regulatory_status": "Decentralized network \u2014 individual node operators subject to local regulations",
+      "client_profile": "DeFi protocols, tokenization platforms, any on-chain financial product requiring real-world data",
+      "key_differentiator": "Oracle network that connects blockchains to real-world data \u2014 without reliable oracles smart contracts cannot access external price feeds, making Chainlink critical infrastructure for tokenized assets, DeFi, and any on-chain financial product referencing real-world values",
+      "competitive_position": "Core",
+      "risk_flags": "Decentralized governance creates protocol upgrade complexity \u2014 no single entity controls network evolution",
+      "strategic_move": "CCIP cross-chain interoperability protocol expanding, deepening institutional partnerships for tokenized asset price feeds",
+      "funding": {
+        "ticker": "LINK",
+        "last_valuation": null,
+        "total_funding_raised": "$32M+",
+        "last_round": "ICO / Strategic",
+        "last_round_date": "2017",
+        "key_investors": [
+          "Multicoin Capital",
+          "Framework Ventures"
+        ]
+      },
+      "issued_assets": {
+        "assets": [
+          {
+            "symbol": "LINK",
+            "name": "Chainlink",
+            "type": "Utility Token",
+            "note": "LINK is the economic mechanism of the Chainlink network \u2014 node operators are paid in LINK and stake it as security collateral. Unlike other tokens here, LINK is inseparable from the network's operation. Not a stablecoin or financial product."
+          }
+        ],
+        "asset_type": "token_is_core"
+      }
+    },
+    {
+      "company": "Axelar",
+      "primary_layer": "Technology & Node Infrastructure",
+      "secondary_layers": null,
+      "public_private": "Private",
+      "valuation": null,
+      "founded": 2020,
+      "hq": "Cayman Islands",
+      "geographic_coverage": "US, EU, APAC",
+      "regulatory_status": "Decentralized network architecture",
+      "client_profile": "Multi-chain protocols, institutional platforms needing cross-chain asset and message transfer",
+      "key_differentiator": "Cross-chain messaging protocol enabling assets and data to move between blockchains securely \u2014 as institutional stacks become multi-chain the ability to move value across chains without centralized exchange intermediaries becomes critical infrastructure",
+      "competitive_position": "Niche",
+      "risk_flags": null,
+      "strategic_move": "Expanding institutional partnerships, deepening integration with tokenization platforms building multi-chain asset issuance",
+      "funding": {
+        "ticker": null,
+        "last_valuation": null,
+        "total_funding_raised": "$65M",
+        "last_round": "Series B",
+        "last_round_date": "2022",
+        "key_investors": [
+          "Binance Labs",
+          "Dragonfly Capital",
+          "Polychain"
+        ]
+      },
+      "issued_assets": null
+    },
+    {
+      "company": "LayerZero",
+      "primary_layer": "Technology & Node Infrastructure",
+      "secondary_layers": null,
+      "public_private": "Private",
+      "valuation": null,
+      "founded": 2021,
+      "hq": "Cayman Islands",
+      "geographic_coverage": "US, EU, APAC",
+      "regulatory_status": "Decentralized protocol architecture",
+      "client_profile": "DeFi protocols, cross-chain applications, institutional platforms requiring omnichain connectivity",
+      "key_differentiator": "Omnichain interoperability protocol \u2014 alternative cross-chain messaging architecture to Axelar with different trust assumptions and expanding institutional adoption as multi-chain becomes the institutional standard",
+      "competitive_position": "Niche",
+      "risk_flags": null,
+      "strategic_move": "Expanding institutional use cases, building toward becoming the standard cross-chain messaging layer for institutional digital asset infrastructure",
+      "funding": {
+        "ticker": null,
+        "last_valuation": "$3B",
+        "total_funding_raised": "$263M",
+        "last_round": "Series B",
+        "last_round_date": "2023",
+        "key_investors": [
+          "a16z",
+          "Sequoia Capital",
+          "Coinbase Ventures"
+        ]
+      },
+      "issued_assets": null
+    }
+  ]
+}
