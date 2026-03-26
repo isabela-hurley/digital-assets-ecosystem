@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Digital Assets Ecosystem</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' fill='%230B1628'/%3E%3Ctext x='16' y='22' font-family='Inter%2CSans-serif' font-size='13' font-weight='600' fill='%23F0F4FF' text-anchor='middle' letter-spacing='0.5'%3EDA%3C/text%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -1610,7 +1611,7 @@
     if (!isFresh) {
       try {
         // optimization: skip fetch for crypto-formatted tickers; null guards below handle any missed cases
-        var res = await fetch('https://query1.finance.yahoo.com/v8/finance/chart/' + encodeURIComponent(ticker));
+        var res = await fetch('https://corsproxy.io/?' + 'https://query1.finance.yahoo.com/v8/finance/chart/' + encodeURIComponent(ticker));
         if (!res.ok) throw new Error('HTTP ' + res.status);
         var json   = await res.json();
         var result = json && json.chart && json.chart.result && json.chart.result[0];
